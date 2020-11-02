@@ -1,6 +1,9 @@
 const backToCollections = document.querySelector(".back-to-collections");
 
+console.log(backToCollections);
+
 const listParentCollections = () => {
+    console.log("I am here");
     backToCollections.style.display = "none";
 
     document.querySelectorAll(".collection-grid-item").forEach((elm) => {
